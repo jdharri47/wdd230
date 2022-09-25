@@ -1,0 +1,17 @@
+@media (min-width: 32.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .whitespace {
+        grid-column: 1/2;
+    }
+
+    .alignment {
+        grid-column: 2/3;
+    }
+
+    .visualhierarchy {
+        grid-column: 1/3;
+    }
+}

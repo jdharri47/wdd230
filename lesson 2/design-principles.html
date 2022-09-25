@@ -3,39 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link rel="stylesheet" href="lesson2/style.css">
-    <link rel="normalize" href="wdd230/css/normalize.css">
+    <title>Design-Principles - Jason Harrison</title>
+    <link rel="normalize" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
   </head>
   <body>
-      <main class="grid">
-          <h1>Design Principles Document</h1>
-          <h2>Jason Harrison</h2>
-          
-          <div class="contrast">
-                <h3>contrast</h3>
-                <a href="https://rangersapprentice.com.au/">rangersapprentice.com.au</a>
-                <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/279629180_292378902977300_9106169580597495402_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=101&ccb=1-6&_nc_sid=aee45a&_nc_ohc=-rz2OxZAU68AX8AvKvF&_nc_ht=scontent-lax3-2.xx&oh=03_AVLnYFmjwRxsPfSTTzaByg91XY-51o8Wc9te_nvL_9B1gw&oe=62A185B3">
-                <p>This site is a good example of contrast because it draws attention to the content through the black background causing the content to standout and to draw the eye. This is done through the bright colors of the content.</p>   
-          </div>
-
-          <div class="repetition">
-              <h3>Repetition</h3>
-              <a href="https://rickriordan.com/">rickriordan.com</a>
-              <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/279972886_1057126444885212_3223240317619515437_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=108&ccb=1-6&_nc_sid=ae9488&_nc_ohc=lgUtWFZvGwUAX9a4T4H&tn=XJvOC2axrYqMttY1&_nc_ht=scontent-lax3-1.xx&oh=03_AVJ43Z1nqZ_BF0HHsSmPIAvrm2Zl3_liRw3Z-yw57rdAKQ&oe=62A22BEF">
-              <p>This site does a good job of using repetition to make the whole design unified and keeping things simple for the user.</p>
-          </div>
-
-          <div class="ruleof3rds">
-              <h3>Rule of 3rds</h3>
-              <a href="https://warriorcats.com/">warriorcats.com</a>
-              <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/279862635_4686933654744570_1318915286590458808_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=108&ccb=1-6&_nc_sid=ae9488&_nc_ohc=huvnKdVAl7MAX8j7J5h&tn=XJvOC2axrYqMttY1&_nc_ht=scontent-lax3-1.xx&oh=03_AVKAaT41r_JbHUZC_vXVa_vOvqrujbS79F-4VJYj5lMHzg&oe=62A077BD">
-              <p>This site uses rule of thirds to unify the content and to help draw the eye through the site.</p>
-          </div>
-            
-          
-
-      </main>
-      <footer></footer>
+    <header>
+      <h1>Design Principles Document</h1>
+      <h2>Jason Harrison</h2>
+    </header>
+    <main>
+      <h3 class="whitespace">White Space</h3>
+      <img src="img/apple-screenshot.png" alt="screenshot of apple website" class="whitespace">
+      <p class="whitespace">
+        The Apple website does a good job of utilizing white space and keeping a neat
+        design. 
+        They are not afraid of white space but use it to call attention to the content they wish to show.
+        There is an appropriate amount of padding and margins to keep the website neat and clean.
+      </p>
+      <h3 class="alignment">Alignment</h3>
+      <img src="img/amazon-screenshot.png" alt="screenshot of amazon website" class="alignment">
+      <p class="alignment">The alignment of the items on the amazon website is amazing.
+        it makes scrolling through to find what you're looking for so easy. 
+        The alignment of the page keeps it simple and easy to use.
+      </p>
+      <h3 class="visualhierarchy">Visual Hierarchy</h3>
+      <img src="img/vernalcinema-screenshot.png" alt="screenshot of vernalcinema website" class="visualhierarchy">
+      <p class="visualhierarchy">The visual hierarchy of this site helps focus the visiter of the site to stay focused on their
+        purpose. First the banner of the site draws attention to the logo and name of the cinema. Then the
+        next largest thing is the movies being played then the times. It all draws your eye in a natural way.
+      </p>
+    </main>
+    <footer> &copy; <span id="year"></span> |Jason Harrison| 
+      last modified: <span id="lastmodified"></span>
+    </footer> 
+    <script src="scripts/dates.js"></script>
   </body>
+ 
 </html>

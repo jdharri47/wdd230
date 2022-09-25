@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+}
+header {
+    background-color: #084A24;
+    color: #EBEBEB;
+    margin: 1em;
+   text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+img {
+    width: 50%
+}
+
+h3 {
+    background-color: #5F626D;
+    color: #EFFBF5;
+    border-top-left-radius: 0.5em;
+}
+
+footer {
+    background-color: #084A24;
+    color: #EBEBEB;
+    text-align: center;
+}
+
+p {
+    width: 50%
+}
+
