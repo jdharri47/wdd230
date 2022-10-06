@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     
 }
 
@@ -10,7 +10,8 @@ img  {
 }
 
 h1 {
-    padding: 10px 20px
+    padding: 10px 20px;
+    align-self: center;
 }
 
 h1 h2 {
@@ -29,5 +30,5 @@ header, footer {
     text-align: center;
     background-color: #084A24;
     color: #EBEBEB;
-    margin: 75px;
+    margin: 0 25% 0 25%;
 }
