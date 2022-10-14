@@ -14,4 +14,10 @@
     .visualhierarchy {
         grid-column: 3/4;
     }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
