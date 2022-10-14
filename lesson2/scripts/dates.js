@@ -1,5 +1,9 @@
-let lastModified = new Date(document.lastModified)
-
 const options = {weekday:'long', day:'numeric', month:'long', year:'numeric'};
 
-document.getElementById('date').textContent = lastmodified.toLocaleDateString('en-US', options);
+const todaysDate = new Date();
+
+let year = todaysDate.getFullYear;
+let lastModified = new Date(document.lastModified);
+
+document.querySelector('#lastmodified').textContent = lastmodified.toLocaleDateString('en-US', options);
+document.querySelector('#year').textContent = year
