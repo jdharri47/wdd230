@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Design-Principles - Jason Harrison</title>
-    <link rel="normalize" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -17,7 +17,7 @@
     <main>
       <div class="whitespace">
         <h3>White Space</h3>
-        <img src="img/apple-screenshot.png" alt="screenshot of apple website">
+        <img src="img/apple-screenshot.webp" alt="screenshot of apple website">
         <p>
         The Apple website does a good job of utilizing white space and keeping a neat
         design. 
@@ -27,7 +27,7 @@
     </div>
      <div class="alignment">
       <h3 >Alignment</h3>
-      <img src="img/amazon-screenshot.png" alt="screenshot of amazon website">
+      <img src="img/amazon-screenshot.webp" alt="screenshot of amazon website">
       <p >The alignment of the items on the amazon website is amazing.
         it makes scrolling through to find what you're looking for so easy. 
         The alignment of the page keeps it simple and easy to use.
@@ -35,7 +35,7 @@
     </div> 
       <div  class="visualhierarchy">
         <h3>Visual Hierarchy</h3>
-      <img src="img/vernalcinema-screenshot.png" alt="screenshot of vernalcinema website">
+      <img src="img/vernalcinema-screenshot.webp" alt="screenshot of vernalcinema website">
       <p>The visual hierarchy of this site helps focus the visiter of the site to stay focused on their
         purpose. First the banner of the site draws attention to the logo and name of the cinema. Then the
         next largest thing is the movies being played then the times. It all draws your eye in a natural way.
@@ -46,14 +46,6 @@
     <footer> &copy; <span id="year"></span> |Jason Harrison| 
       last modified: <span id="lastmodified"></span>
     </footer> 
-    <script src="scripts/dates.js">const options = {weekday:'long', day:'numeric', month:'long', year:'numeric'};
-      const todaysDate = new Date();
-      
-      let year = todaysDate.getFullYear;
-      let lastModified = new Date(document.lastModified);
-      
-      document.querySelector('#lastmodified').textContent = lastmodified.toLocaleDateString('en-US', options);
-      document.querySelector('#year').textContent = year;</script>
+    <script src="scripts/dates.js"></script>
   </body>
- 
 </html>
