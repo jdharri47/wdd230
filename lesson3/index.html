@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +7,10 @@
         <title>Website Planning Document - Jason Harrison</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
     </head>
     <body>
         <header>
@@ -41,9 +42,13 @@
             </p>
 
             <h3>Logo</h3>
-            <img>
+            <div class="logo-box">
+                <img src="images/chamberlogo.webp" alt="vernal city chamber logo">
+            </div>
         </main>
-        <footer> &copy; 2022| Jason Harrison|
-            last modified: <span id="date"></span></footer>
+        <footer> &copy; <span id="year"></span>| Jason Harrison|
+            last modified: <span id="lastmodified"></span>
+        </footer>
+        <script src="scripts/date.js"></script>
     </body>
 </html>

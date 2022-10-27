@@ -1,0 +1,96 @@
+body {
+    background-color: #B89365 ;
+    color: #3a5a40 ;
+    font-size: 15px;
+    text-align: center;
+    font-family: lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 1rem;
+}
+
+nav, footer {
+    background-color: #98CAEC;
+    margin: 0;
+    max-width: 850px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -40px;
+    margin-right: 40px;
+}
+
+li {
+    padding: 20px;
+    display: block;
+}
+
+a {
+    color: #3a5a40;
+    display: block
+}
+
+a:hover {
+    background-color: #3a5a40;
+    color:#98CAEC
+}
+
+main {
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: lora;
+}
+
+p {
+    width: 50%
+}
+
+.logo-box {
+    width: 400px;
+    margin-left: 100px;
+    margin-right: -100px;
+    
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}

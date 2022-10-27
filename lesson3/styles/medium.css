@@ -1,0 +1,12 @@
+@media (min-width: 32.5em) {
+    body {
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
