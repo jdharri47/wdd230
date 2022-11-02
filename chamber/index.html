@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vernal City Chamber</title>
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/large.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="logobox">
-                <img>
-                <h1>Vernal City Chamber</h1>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
+    <title>Vernal City Chamber</title>
+</head>
+<body>
+    <header>
+
+        <div class="headname">
+           <img class="logo" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
+           <h1 class="header-title">Vernal City Chamber</h1>
+        </div>
+        <div class = "social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="imgs/facebook-logo.png" alt="facebook"></a>
+            <a href="https://mobile.twitter.com/" target="_blank"><img src="imgs/twitter-logo.png" alt="twitter"></a>
             </div>
+        
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
             <nav>
-                <ul class="navigation">
-                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
-                    <li><a href="#">Page 4</a></li>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li> 
                 </ul>
             </nav>
-        </header>
-        <main>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </main>
-        <footer></footer>
-    </body>
-</html>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+        
+              
+    </header>
+    <main>
+        <div class="hero">Hero with site name call to action</div>
+        <div class="event">Event</div>
+        <div class="weather">Weather</div>
+        <div class="news">News Release</div>
+        <div class="join">Join</div>
+
+        <aside class="aside">
+            <div>Spotlight 1</div>
+            <div>Spotlight 2</div>
+            <div class="spotlight3">Spotlight 3</div>
+        </aside>
+
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
+                </div>
+                <div class="title-footer">
+                    <h2>Vernal City Chamber of Commerce</h2>
+                </div>
+                <div class="contact">
+                    <p>har20040@byui.edu</p>
+                    <p>+(1) 435-790-1300</p>
+                    <a href="https://www.google.com/maps/place/Vernal+Area+Chamber+of+Commerce/@40.4558551,-109.5314544,19.17z/data=!4m6!3m5!1s0x87456237bab7e2ef:0xf4e365ab06de8e34!8m2!3d40.455919!4d-109.530964!16s%2Fg%2F1v_snq6w">📍 Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="©">
+                        </span>  &nbsp; Vernal City Chamber of Commerce &nbsp;</span> |  &nbsp; Jason Harrison &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+                    
+                </div>            
+            </footer>
+            <script src="scripts/script.js"></script>
+        </body>
+        </html>
