@@ -230,3 +230,55 @@ footer p {
 span {
     display: inline-block;
 }
+
+.hero {
+    position: relative;
+    padding: 0; 
+}
+.banner {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    padding: 12px;
+    min-width: 100px;;
+    width: 50%;
+    background-color: #98CAEC;
+    box-shadow: 0 10px 30px #121335;
+    border: none;
+}
+
+.call-to-action:hover {
+    background-color: #3a5a40;
+}
+.text-join {
+    padding: 15px;
+    text-align: center;
+}
+
+.banner-message {
+    width: 100%;
+    background-color: #ff7d00;
+    color: #DEE5E5;
+    padding: 8px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#temperature {
+    text-align: right;
+    font-size: 36px;
+    right: 15px;
+}
+
+.contact a {
+    font-size: 20px;
+}
+
+
