@@ -1,0 +1,41 @@
+html {
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  header {
+      text-align: center;
+  }
+  
+  .sales {
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+  table, td, th {
+      border: 2px solid black;
+      padding: 1em;
+    }
+    
+  table {
+      width: 50%;
+      border-collapse: collapse;
+      text-align: center;
+      box-shadow: 1px 1px 0.5em black;
+    }
+  
+  .highlight {
+    color: white;
+    background-color: #3a5a40;
+  }
+  
+  main p {
+      color: #0D3B66;
+      text-align: center;
+  }
+  
+  thead:nth-child(1) {
+    background-color:  #7ABFDE;
+  }
+  
+  
