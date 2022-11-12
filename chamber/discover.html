@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
+    <title>Vernal City Chamber</title>
+</head>
+<body>
+    <div id="message"></div>
+    <header>
+
+        <div class="headname">
+           <img class="logo" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
+           <h1 class="header-title">Vernal City Chamber</h1>
+        </div>
+        <div class = "social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="imgs/facebook-logo.png" alt="facebook"></a>
+            <a href="https://mobile.twitter.com/" target="_blank"><img src="imgs/twitter-logo.png" alt="twitter"></a>
+            </div>
+        
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+                          
+    </header>
+    <main>
+        <div class="herodiscover">
+                <img class="bannerdiscover" src="imgs/pelican-lake.jpg" alt="Pelican Lake ">
+                <p><b>Vast History</b><br>
+                Vernal has a large and diverse history. Unlike most towns and cities in Utah, Vernal was not
+                settled by Mormon Pioneers. It began when President Abraham Lincoln set the Uinta Basin as the 
+                Uintah Indian Reservation, appointing Captain Pardon Dodds Indian agent. Dodds moved to the Ashley
+                Valley when he retired building the first cabin in the valley. The town got its true start in 1879 
+                when a fort was built in the Ashley Valley. The town that grew out from the fort became known as 
+                Ashley Center however was changed to Vernal when the postal service came to the town because the 
+                name of Ashley was already taken.</p>
+                <hr>
+                
+                <p><br><b>Dinosaurs?</b><br>
+                Being in the center of what is called Dinosaur land, Vernal is well known for its dinosaur museum and
+                its proximity to Dinosaur National Monument.</p>
+        </div>
+
+           <div class="event">
+                <b>Where is Vernal?</b><br>
+                Vernal is on the northeastern corner of Utah. Lying within the Uintah Basin, Vernal is surrounded by mountains on all sides.
+                With a population of roughly 10,000 people, Vernal is the largest city in the Uintah Basin and is also the seat of the Uintah County.
+                
+                <hr><br><b>Things to do</b><br>
+                There are many things to do in Vernal. There are many hiking/biking trails, as well as, camp sites, fishing spots, and of course the dinosaur museum and
+                The Dinosaur National Monument<br><br>
+                <hr>
+                <button class="localstorage">Local Storage</button><br>
+                	<p class="left"></p><span class="label">Number of visits: </span>  <span class="visits"></span>   
+             </div>
+        
+         <div class="lazyloading">
+           
+         <h2 class="header-title">Vernal Gallery</h2>
+            <hr>
+            <div class="mygallery">
+                <figure>
+                    <picture>
+                        <img class="shadow" src="images/placeholder.png" data-src="imgs/red-cloud-loop.jpg" alt="Red Cloud Loop">
+                    </picture>
+                    <figcaption>Red Cloud Loop</figcaption>
+                </figure>
+ 
+                <figure>
+                    <picture>
+                        <img class="shadow" src="images/placeholder.png" data-src="imgs/vernal-sunset.jpg" alt="Sunset in Vernal">
+                    </picture>
+                    <figcaption>Uintah Basin Sunset</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img class="shadow" src="images/placeholder.png" data-src="imgs/vernal-snowscape.jpg" alt="Vernal winter scape">
+                    </picture>
+                    <figcaption>Vernal in Winter</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <img class="shadow" src="images/placeholder.png" data-src="imgs/vernal-skyline.jpg" alt="Vernal skyline">
+                    </picture>
+                    <figcaption>Outskirt View of the Vernal skyline</figcaption>
+                </figure>
+        
+                <figure>
+                    <picture>
+                        <img class="shadow" src="images/placeholder.png" data-src="imgs/dino-statues.jpg" alt="Dinosaur Statues in downtown vernal">
+                    </picture>
+                    <figcaption>Statues in downtown Vernal</figcaption>
+                </figure>
+        </div>
+     </div>
+
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
+                </div>
+                <div class="title-footer">
+                    <h2>Vernal City Chamber of Commerce</h2>
+                </div>
+                <div class="contact">
+                    <p>har20040@byui.edu</p>
+                    <p>+(1) 435-790-1300</p>
+                    <a href="https://www.google.com/maps/place/Vernal+Area+Chamber+of+Commerce/@40.4558551,-109.5314544,19.17z/data=!4m6!3m5!1s0x87456237bab7e2ef:0xf4e365ab06de8e34!8m2!3d40.455919!4d-109.530964!16s%2Fg%2F1v_snq6w">📍 Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="©">
+                        </span>  &nbsp; Vernal City Chamber of Commerce &nbsp;</span> |  &nbsp; Jason Harrison &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+                    
+                </div>            
+            </footer>
+            <script src="scripts/script.js"></script>
+            <script src="scripts/imagehandling.js"></script>
+            <script src="scripts/visit-count.js"></script>
+        </body>
+        </html>

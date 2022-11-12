@@ -120,4 +120,19 @@
 	.join-us:hover{
 		background-color: #3a5a40;
 	}
+	
+	.mygallery {
+		display: grid;
+		grid-template-columns: 200px 200px;
+		justify-content: center;
+		grid-gap: 10px;
+		height: 80%;
+	}
+	.mygallery figcaption {
+		background-color: #FFECD1;
+		padding: 5px;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		border: thin silver solid;
+	}
 }
