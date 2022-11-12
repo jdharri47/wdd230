@@ -199,7 +199,6 @@ aside {
 }
 
 main div {
-    height: 150px;
     background-color: #DEE5E5;
     margin-bottom: 10px;
     padding: 10px;
@@ -264,8 +263,8 @@ span {
 
 .banner-message {
     width: 100%;
-    background-color: #ff7d00;
-    color: #DEE5E5;
+    background-color: white;
+    color: black;
     padding: 8px;
     max-width: 960px;
     margin: 0 auto;
@@ -281,4 +280,11 @@ span {
     font-size: 20px;
 }
 
+main picture.optipic img {width: 100%;}
 
+
+picture.optipic {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
