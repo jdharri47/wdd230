@@ -241,6 +241,17 @@ span {
     min-height: 100%;
 }
 
+.herodiscover {
+    position: relative;
+    padding: 0; 
+}
+.bannerdiscover, p {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
 .call-to-action {
     position: absolute;
     bottom: 8px;

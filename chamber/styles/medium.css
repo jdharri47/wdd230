@@ -33,6 +33,11 @@
 		grid-row: 1/2;
 	}
 
+	.herodiscover {
+		grid-column: 1/4;
+		grid-row: 1/2;
+	}
+
 	.news {
 		grid-column: 1/4;
 		grid-row: 2/3;
@@ -135,4 +140,6 @@
 		font-family: 'Lato', sans-serif;
 		border: thin silver solid;
 	}
+
+	
 }
