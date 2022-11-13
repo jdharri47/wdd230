@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
+    <title>Vernal City Chamber</title>
+</head>
+<body>
+    <div id="message"></div>
+    <header>
+
+        <div class="headname">
+           <img class="logo" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
+           <h1 class="header-title">Vernal City Chamber</h1>
+        </div>
+        <div class = "social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="imgs/facebook-logo.png" alt="facebook"></a>
+            <a href="https://mobile.twitter.com/" target="_blank"><img src="imgs/twitter-logo.png" alt="twitter"></a>
+            </div>
+        
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+        
+              
+    </header>
+    <main>
+        <div class="registration">
+            <h1>Chamber of Commerce Registration</h1>
+            <hr>
+            <br>
+            <form method="get" action="thanks.html">
+    
+                <fieldset class="form">
+                <Legend> Member Registration</Legend>
+                    <!--Registration Information-->
+                        <label class="top" for="name">First Name*
+                        <input class="box" type="text" id="name" name="user_name"  required minlength="3" maxlength="10" size="12"></label>
+                        <label class="top" for="lastname">Last Name*
+                        <input class="box" type="text" id="lastname" name="user_lastname" required minlength="3" maxlength="10" size="12"></label>
+                        <label class="top" for="mail">E-mail Address
+                        <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com" required></label>
+                        <label class="top" for="phone">Cell Phone Number*
+                        <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"  required></label>
+                        <label class="top" for="busname">Business Name*
+                        <input class="box" type="text" id="busname" name="bus_name" required minlength="3" maxlength="20" size="22"></label>
+                </fieldset>
+     
+                <fieldset class="mform">
+                <legend>Membership Level</legend>
+                    <!--Registration date-->
+                    <input class="mform" type="hidden" id="member_date" name="member_date" value="">
+                        <!--Registration Levels-->
+                        <label> <input type="radio" name="membershiplevel" value="np"> NP Membership</label>
+                        <label> <input type="radio" name="membershiplevel" value="bronze"> Bronze Membership</label>
+                        <label> <input type="radio" name="membershiplevel" value="silver"> Silver Membership</label>
+                        <label> <input type="radio" name="membershiplevel" value="gold"> Gold Membership</label>
+                     </fieldset>
+    
+                    <fieldset class="form">
+                    <legend>Additional Business Information</legend>
+                        <label class="submitButton" for="msg">Business Description</label>
+                        <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+                </fieldset>
+                <input class="button" type="submit" value="Send Registration Form">
+            </form>
+        </div>
+             
+        <div class="mplevels">
+                <div class="membership nonprofit">
+                    <h2>NonProfit Members</h2>
+                    <h3 class="fee">No fee</h3>
+                    Non profit memberships are for businesses that are not for profit enterprizes and are not self-employed.
+                    <br><br>
+                    Membership programs are a fantastic way to cultivate focused support for your cause and generate predictable revenue. .
+                    </div>  
+                <div class="membership bronze">
+                <h2>Bronze Membership</h2>
+                <h3 class="fee">$30/month</h3>
+                 Bronze membership is for businesses with less than 50 employees that are for profit. 
+                  <br><br>Benefits include:
+                  access to the Ottawa Chamber of Commerce network, attend training events and discount on advertisement postings.. 
+                </div>
+                    <div class="membership silver">
+                <h2>Silver Membership</h2>
+                <h3 class="fee">$80/month</h3>
+                  Silver membership is for businesses with less than 250 employees that are for profit. <br><br>It includes
+                  the same all the benefits of the bronze membership and in addition spotlight on our home page, and access to 
+                  exclusive chamber events and conferences.
+                </div>
+        
+                <div class="membership gold">
+                <h2>Gold Membership</h2>
+                <h3 class="fee">$120/month</h3>
+                  Gold membership is for businesses with more than 250 employees that are for profit. <br><br>It includes
+                  all the benefits of silver membership and the opportunity to serve on the Board of Directors.
+                  In addition of access to Chamber experts, and feedback.
+                </div>
+        </div> 
+        
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
+                </div>
+                <div class="title-footer">
+                    <h2>Vernal City Chamber of Commerce</h2>
+                </div>
+                <div class="contact">
+                    <p>har20040@byui.edu</p>
+                    <p>+(1) 435-790-1300</p>
+                    <a href="https://www.google.com/maps/place/Vernal+Area+Chamber+of+Commerce/@40.4558551,-109.5314544,19.17z/data=!4m6!3m5!1s0x87456237bab7e2ef:0xf4e365ab06de8e34!8m2!3d40.455919!4d-109.530964!16s%2Fg%2F1v_snq6w">📍 Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="©">
+                        </span>  &nbsp; Vernal City Chamber of Commerce &nbsp;</span> |  &nbsp; Jason Harrison &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+                    
+                </div>            
+            </footer>
+            <script src="scripts/script.js"></script>
+            <script src="scripts/adjust.js"></script>
+            <script src="scripts/selectresponse.js"></script>
+            <script src=""></script>
+        </body>
+        </html>
