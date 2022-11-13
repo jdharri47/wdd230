@@ -148,6 +148,14 @@
 		grid-template-columns: repeat(2, 1fr);
 	  }
 	
+	  .join-main {
+		display: grid;
+		grid-template-columns: 1fr 300px;
+	  }
+	  .registration {
+		grid-column: 1/2;
+	  }
+	  
 	  .mplevels {
 		display:block;
 		max-width: 300%;
@@ -156,6 +164,7 @@
 		width: 300px;
 		max-height: 41ex;
 		margin: 0 auto;
+		grid-column: 2/3;
 	  }
 
 	  form fieldset {
