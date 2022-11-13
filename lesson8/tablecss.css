@@ -1,41 +1,49 @@
-html {
-    font-family: 'Roboto Slab', serif;
-  }
-  
-  header {
-      text-align: center;
-  }
-  
-  .sales {
-      display: flex;
-      justify-content: center;
-  }
-  
-  
-  table, td, th {
-      border: 2px solid black;
-      padding: 1em;
-    }
-    
-  table {
-      width: 50%;
-      border-collapse: collapse;
-      text-align: center;
-      box-shadow: 1px 1px 0.5em black;
-    }
-  
-  .highlight {
-    color: white;
-    background-color: #3a5a40;
-  }
-  
-  main p {
-      color: #0D3B66;
-      text-align: center;
-  }
-  
-  thead:nth-child(1) {
-    background-color:  #7ABFDE;
-  }
-  
-  
+:root {
+	--back: rgb(3, 126, 10);
+	--back2: rgba(96, 213, 96, 0.882);
+	--foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: rgb(182, 163, 114);
+	--zebra: rgb(189, 206, 176);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+	width: 50%;
+	min-width: 330px;
+	max-width: 450px;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
