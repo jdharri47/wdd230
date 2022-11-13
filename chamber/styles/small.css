@@ -390,13 +390,7 @@ margin: 0 auto;
 }
 
 .mplevels {
-    display:block;
-    max-width: 300%;
-    padding-top: 10px;
-    padding-left: 0px;
-    width: 300px;
-    max-height: 41ex;
-    margin: 0 auto;
+    display: none;
     }
 
 h3 {
@@ -404,7 +398,7 @@ h3 {
 }
 
 form legend {
-    color: #445ba9;
+    color: #3a5a40;
     padding: 10px;
 }
 
@@ -476,7 +470,7 @@ label.submitButton {
 .button {
     display: grid;
     border: none;
-    background-color: #15616D;
+    background-color: #3a5a40;
     color: white;
     border-radius: 10px;
     padding: .75rem 1.5rem;
