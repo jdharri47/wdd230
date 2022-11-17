@@ -15,14 +15,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
     <title>Vernal City Chamber</title>
 </head>
+
 <body>
     <div id="message"></div>
-    <header>
 
+    <header>
         <div class="headname">
            <img class="logo" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
            <h1 class="header-title">Vernal City Chamber</h1>
         </div>
+
         <div class = "social">
             <a href="https://www.facebook.com/" target="_blank"><img src="imgs/facebook-logo.png" alt="facebook"></a>
             <a href="https://mobile.twitter.com/" target="_blank"><img src="imgs/twitter-logo.png" alt="twitter"></a>
@@ -31,76 +33,35 @@
         <div>
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
         </div>
+
         <div class="menu">
             <nav>
                 <ul id="primaryNav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li> 
                 </ul>
             </nav>
         </div>
+
         <div class="date-header">
             <p id="datetime"></p>
+        </div>                
+    </header>
+   
+    <main class="directory-main">
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
         </div>
         
-              
-    </header>
-    <main>
-        <div class="hero">
-            <picture class="optipic">
-                <source media="(max-width: 600px)" srcset="imgs/wdd230-org-small.webp">
-                <source media="(max-width: 768px)" srcset="imgs/wdd230-org-medium.webp">
-                <source media="(max-width: 1024px)" srcset="imgs/wdd230-org-large.webp">
-                <img src="imgs/wdd230-org-large.webp" alt="Lesson 06">
-            </picture>
-            <button class="call-to-action">Join the Chamber</button>
+        <div class="grid">
+                
         </div>
-        <div class="event">
-            <b>Holly Days</b><br>
-            Come celebrate the holidays with us at Holly Days on November 25. Enjoy many activities and family fun
-            including: facepainting, hot chocolate, a parade, bounce houses, and more.
-        </div>
-        <div class="weather">
-            <h3 id="temerature"><span id="the-temp">20</span>°F</h3>
-            <h4 id="description-temperature">Partly Cloudy</h4>
-            <hr>
-            <p id="wind-speed">Wind Speed: <span id="the-windspeed">30</span>m/h</p>
-            <p id="wind-chill">Wind Chill: <span id="the-windchill"></span></p>
-        </div>
-        <div class="news">
-            <span id="news-date">Nov. 1, 2022</span>
-            <h3>Mayor's walk is a major success</h3>
-            <p>
-                The annual Mayor's walk, an annual event to celebrate halloween, was a great success. Many families
-                came and enjoyed candy and fun.
-            </p>
-        </div>
-        <div class="join">
-            <button class="join-us">Join Us!</button>
-            <p class="paragraph-join">Discover how to join the Vernal City Chamber of Commerce and how it will
-                benefit your buisiness.
-            </p>
-        </div>
-
-        <aside class="aside">
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-            <div class="spotlight3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-        </aside>
-
     </main>
+
     <footer>
         <div class="logo-footer">
             <img class="logo-footer" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
@@ -122,6 +83,7 @@
                 </div>            
             </footer>
             <script src="scripts/script.js"></script>
-            <script src="scripts/windchill.js"></script>
+            <script src="scripts/imagehandling.js"></script>
+            <script src="scripts/visit-count.js"></script>
         </body>
         </html>

@@ -40,12 +40,15 @@ header div #datetime{
     width: 100%; 
 }
 
+.headname{
+    grid-column: 1/2;
+}
 .date-header {
     grid-column: 1/4;
 }
 
 .menu {
-    grid-column: 1/4;
+    grid-column: 2/3;
 }
 
 .logo, .logo-footer {

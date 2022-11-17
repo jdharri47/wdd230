@@ -1,0 +1,76 @@
+{
+    "directory": [
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/davislogo.jpg",
+            "name": "Davis Food and Drug",
+            "address": "575 W Main St.",
+            "phone": "435-789-2001",
+            "site": "davisfoodanddrug.com",
+            "membership": "Gold"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/basinsportslogo.png",
+            "name": "Basin Sports",
+            "address": "511 W Main St.",
+            "phone": "435-789-2199",
+            "site": "basinsports.com",
+            "membership": "silver"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/techrislogo.jpg",
+            "name": "Techris Design",
+            "address": "110 W Main St.",
+            "phone": "435-789-6550",
+            "site": "techrisdesign.com",
+            "membership": "Bronze"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/dinolandlogo.jpg",
+            "name": "Dinoland Bowl",
+            "address": "168 W Main St.",
+            "phone": "435-789-7467",
+            "site": "dinolandbowl.com",
+            "membership": "Gold"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/vernaltheatrelogo.png",
+            "name": "Vernal Theatre Live",
+            "address": "40 E Main St.",
+            "phone": "435-219-2987",
+            "site": "vernaltheatre.com",
+            "membership": "Silver"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/vernalcinemalogo.png",
+            "name": "Vernal Cinemas, Inc.",
+            "address": "1075 E Hwy 40",
+            "phone": "435-789-1167",
+            "site": "vernalcinemas.com",
+            "membership": "Bronze"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/mortslogo.jpg",
+            "name": "Morts Car Wash",
+            "address": "50 S 1000 W",
+            "phone": "435-789-9274",
+            "site": "mortscarwash.com",
+            "membership": "Gold"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/bettyslogo.png",
+            "name": "Betty's Cafe Inc.",
+            "address": "416 W Main St.",
+            "phone": "435-789-2728",
+            "site": "https://sites.google.com/bettys-cafe.com/bettys/home/",
+            "membership": "Silver"
+        },
+        {
+            "imageUrl": "jdharri47.github.io/wdd230/chamber/imgs/battlezonelogo.jpg",
+            "name": "Uintah Battle Zone/Blacklite Ignite",
+            "address": "1715 S 1500 E",
+            "phone": "435-219-8125",
+            "site": "http://www.uintahbattlezone.com/",
+            "membership": "Bronze"
+        }
+    ]
+}
