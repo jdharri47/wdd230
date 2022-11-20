@@ -23,3 +23,41 @@ else {
     windchill = "NA";
 }
 document.getElementById("the-windchill").innerHTML = windchill;
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=40.4555&lon=-109.5287&units=imperial&appid=180d8ec822d7fe540e4152c55307d99a';
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+apiFetch();
+
+function displayResults(weatherData) {
+    const temperature = document.querySelector('#the-temp');
+    const wind = document.querySelector('#the-windspeed');
+    const weatherIcon = document.querySelector('#weather-icon');
+    const description = document.querySelector('#description-temperature');
+
+    const currentTemp = weatherData.main.temp.toFixed(0);
+    const windspeed = weatherData.wind.speed;
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const desc = weatherData.weather[0].description;
+
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    temperature.textContent = currentTemp;
+    wind.textContent = windspeed;
+    description.textContent = desc;
+
+}

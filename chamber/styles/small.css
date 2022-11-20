@@ -572,3 +572,19 @@ aside div img {
 aside div p {
     text-align: center;
 }
+
+.weather-attribution a {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    color: #3a5a40;
+    text-decoration: underline;
+}
+
+.weather-attribution a:hover {
+    color: #98CAEC;
+}
+
+#weather-icon:hover {
+    background-color: transparent;
+}
