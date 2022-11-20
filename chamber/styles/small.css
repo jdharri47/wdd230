@@ -485,3 +485,90 @@ label.submitButton {
     max-width: 20rem;
     text-align: center;
 }
+
+/* Directory*/
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	align-items: center;
+    grid-gap: 10px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: column;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+card {
+    box-shadow: #f4f6f7 0px 14px 21px -7px;
+    padding-bottom: 10px;
+    height: 100%;
+    margin: 10px;
+}
+
+.card a {
+    color: #3a5a40;
+    font-size: 1rem;
+}
+
+.card a:hover {
+    color: #98CAEC;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu button {
+    padding: 8px;
+    background-color: #4c4c57;
+    color: #DEE5E5;
+}
+
+.list p, .list h3 {
+    width: 100%;
+}
+
+aside div img {
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+aside div p {
+    text-align: center;
+}
