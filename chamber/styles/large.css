@@ -1,4 +1,4 @@
-@media (min-width: 48em) {
+@media (min-width: 52em) {
 	
     header div button {
         display: none;
@@ -192,7 +192,10 @@
       .list section p:nth-child(2) {
         width: 300px;
       }
-    
+      
+      .registration {
+        width: 670px;
+      }
     
     }
     

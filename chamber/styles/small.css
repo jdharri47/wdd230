@@ -382,14 +382,18 @@ figure{
 /*-----------------------FORM-------------------*/
 main {
     max-width: 900%;
+    /*width: 300px;*/
     margin: 0 auto;
 }
 
+.main-join {
+    width: 100%;
+}
 
 .registration {
 display:block;
 max-width: 100%;
-width: 670px;
+/*width: 670px;*/
 margin: 0 auto;
 }
 
@@ -527,11 +531,13 @@ label.submitButton {
 	display: none; /* smaller viewports only */
 }
 
-card {
+.card {
     box-shadow: #f4f6f7 0px 14px 21px -7px;
     padding-bottom: 10px;
     height: 100%;
     margin: 10px;
+    border: 2px solid #3a5a40;
+    background-color: #B89365;
 }
 
 .card a {
@@ -573,6 +579,20 @@ aside div p {
     text-align: center;
 }
 
+.gold {
+    color: gold;
+    font-style: bold;
+}
+
+.silver {
+    color: silver;
+    font-style: bold;
+}
+
+.bronze {
+    color: rgb(87, 65, 6);
+    font-style: bold;
+}
 .weather-attribution a {
     font-size: 12px;
     text-align: center;

@@ -6,7 +6,7 @@
             "address": "575 W Main St.",
             "phone": "435-789-2001",
             "site": "davisfoodanddrug.com",
-            "membership": "Gold"
+            "membership": "gold"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/basinsportslogo.png",
@@ -22,7 +22,7 @@
             "address": "110 W Main St.",
             "phone": "435-789-6550",
             "site": "techrisdesign.com",
-            "membership": "Bronze"
+            "membership": "bronze"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/dinolandlogo.jpg",
@@ -30,7 +30,7 @@
             "address": "168 W Main St.",
             "phone": "435-789-7467",
             "site": "dinolandbowl.com",
-            "membership": "Gold"
+            "membership": "gold"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/vernaltheatrelogo.png",
@@ -38,7 +38,7 @@
             "address": "40 E Main St.",
             "phone": "435-219-2987",
             "site": "vernaltheatre.com",
-            "membership": "Silver"
+            "membership": "silver"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/vernalcinemalogo.png",
@@ -46,7 +46,7 @@
             "address": "1075 E Hwy 40",
             "phone": "435-789-1167",
             "site": "vernalcinemas.com",
-            "membership": "Bronze"
+            "membership": "bronze"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/mortslogo.jpg",
@@ -54,7 +54,7 @@
             "address": "50 S 1000 W",
             "phone": "435-789-9274",
             "site": "mortscarwash.com",
-            "membership": "Gold"
+            "membership": "gold"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/bettyslogo.png",
@@ -62,7 +62,7 @@
             "address": "416 W Main St.",
             "phone": "435-789-2728",
             "site": "https://sites.google.com/bettys-cafe.com/bettys/home/",
-            "membership": "Silver"
+            "membership": "silver"
         },
         {
             "imageUrl": "https://jdharri47.github.io/wdd230/chamber/imgs/battlezonelogo.jpg",
@@ -70,7 +70,7 @@
             "address": "1715 S 1500 E",
             "phone": "435-219-8125",
             "site": "http://www.uintahbattlezone.com/",
-            "membership": "Bronze"
+            "membership": "bronze"
         }
     ]
 }
