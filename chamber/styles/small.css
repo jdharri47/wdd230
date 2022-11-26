@@ -24,12 +24,15 @@ header {
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
-
+    width: 100%;
 }
 
 header div {
     display: flex;
     flex-flow: row;
+    width: 100%;
+    max-width: 960px;
+    margin: 0;
 }
 
 header div #datetime{
@@ -113,8 +116,11 @@ header div a {
 header .social a {
     margin: 0;
     width: 4rem;
+    padding: 1rem;;
 }
-
+header .social img {
+    width: 100%;
+}
 header div nav {
     background-color: #3a5a40;
 }
@@ -134,7 +140,7 @@ header div nav ul li {
 
 header div nav ul li a {
     display: block;
-    padding: .8rem 2vw;
+    padding: .8rem 1.5vw;
     text-decoration: none;
 	color: #f4f7f5;
     border-top: 1px solid rgb(46, 120, 139); ;
@@ -176,9 +182,6 @@ main {
     padding: 0.5rem;
 }
 
-header div {
-    width: 100%;
-}
 
 header div nav {
     width: 100%;

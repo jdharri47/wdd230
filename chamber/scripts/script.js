@@ -29,3 +29,6 @@ function toggleMenu() {
 const x = document.getElementById('hamburguerBtn');
 
 x.onclick = toggleMenu;
+
+document.querySelector('.call-to-action').addEventListener('click',() => location.assign('https://jdharri47.github.io/wdd230/chamber/join.html'));
+document.querySelector('.join-us').addEventListener('click',() => location.assign('https://jdharri47.github.io/wdd230/chamber/join.html'));
