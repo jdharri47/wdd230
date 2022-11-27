@@ -167,6 +167,11 @@
 		grid-column: 2/3;
 	  }
 
+	  .membership {
+		padding: 1rem;
+		margin: 20px;
+	}
+
 	  form fieldset {
 		margin: 15px auto;
 	  }

@@ -12,7 +12,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const directory = jsonObject['directory'];
-    const businesses = directory.filter((business) => business.membership == 'Gold');
+    const businesses = directory.filter((business) => business.membership == 'gold');
     create_cards(businesses);
   });
 

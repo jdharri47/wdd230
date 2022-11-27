@@ -382,6 +382,7 @@ figure{
     text-align: center;
 }
 
+
 /*-----------------------FORM-------------------*/
 main {
     max-width: 900%;
@@ -411,6 +412,9 @@ h3 {
 form legend {
     color: #3a5a40;
     padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
 }
 
 form fieldset {
@@ -439,11 +443,6 @@ form .mform {
 
 input[type=radio] {
     margin-right: 10px;
-}
-
-legend {
-    font-weight: bold;
-    font-size: 20px;
 }
 
 
@@ -493,6 +492,39 @@ label.submitButton {
     text-align: center;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.board-contacts{
+    display: block;
+    padding-top: 10;
+}
+
+.info {
+    display: block;
+    width: 100%;
+}
+
+.board {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+p, a, figcaption, li, label {
+    font-size: 1.1em;
+}
+
+
+.div-height-50 {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
 /* Directory*/
 .grid {
 	display: grid;
@@ -610,4 +642,31 @@ aside div p {
 
 #weather-icon:hover {
     background-color: transparent;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=submit] {
+    background-color: #98CAEC;
+}
+
+input[type=submit]:hover {
+    background-color: #3a5a40;
+   }
+
+aside a {
+    display: block;
+    text-align: center;    
+    color:#3a5a40;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+aside a:hover {
+    color: #98CAEC;
 }

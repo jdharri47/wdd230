@@ -15,16 +15,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
     <title>Vernal City Chamber</title>
 </head>
-
 <body>
     <div id="message"></div>
-
     <header>
+
         <div class="headname">
            <img class="logo" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
            <h1 class="header-title">Vernal City Chamber</h1>
         </div>
-
         <div class = "social">
             <a href="https://www.facebook.com/" target="_blank"><img src="imgs/facebook-logo.png" alt="facebook"></a>
             <a href="https://mobile.twitter.com/" target="_blank"><img src="imgs/twitter-logo.png" alt="twitter"></a>
@@ -33,35 +31,49 @@
         <div>
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
         </div>
-
         <div class="menu">
             <nav>
                 <ul id="primaryNav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li> 
+                    <li class="active"><a href="contact.html">Contact</a></li> 
                 </ul>
             </nav>
         </div>
-
         <div class="date-header">
             <p id="datetime"></p>
-        </div>                
+        </div>
+        
+              
     </header>
-   
-    <main class="directory-main">
-        <div class="menu">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
-        </div>
-
-        <div class="grid">
-                
-        </div>
-    </main>
-
+    <main class="board-contacts">
+        <h1> Board of Directors</h1>
+        <div class="board">
+        <h3> Jason Harrison, Chair <br><br>
+         Kathy Hatch, Past Chair<br><br>
+         Helaman Chan, Chair-Elect<br><br>
+         Ben Diaz, Vice Chair <br><br>
+         Jacob Sanchez, Vice Chair <br><br>
+         Jeanette Cook, Secretary<br><br>
+         Anna Harrison, Treasurer <br><br> 
+        </h3>
+     </div>
+       <br><br>
+     <div class="info">
+   <form method="get" action="thankyou.html">
+     <fieldset>
+       <legend>Leave us Your Information or Comments</legend>
+         <label class="top">Full Name<input type="text" name="firstname" minlength= "3" required pattern="[a-zA-Z\s]+"></label>
+         <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+         <label class="top">Phone<input type="tel" name="phone" placeholder="(555) 555-5555"></label>
+         <label class="top">Comments<textarea name="comments">Additional comments</textarea></label>
+     </fieldset>    
+       <input type="submit" value="Submit" class="submitBtn">
+     </form>
+   </div>
+</main>
     <footer>
         <div class="logo-footer">
             <img class="logo-footer" src="imgs/chamber-logo.webp" alt="Vernal City Chamber Logo">
@@ -83,7 +95,6 @@
                 </div>            
             </footer>
             <script src="scripts/script.js"></script>
-            <script src="scripts/json.js"></script>
-            <script src="scripts/visit-count.js"></script>
+            <script src="scripts/windchill.js"></script>
         </body>
         </html>
