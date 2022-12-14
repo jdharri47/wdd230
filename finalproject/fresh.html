@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bountiful Foods</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <button id="hamburgerbtn"><span>&#9776;</span></button>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul id="primarynav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fresh.html">Fresh</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headname">
+                <h1>Bountiful Foods</h1>
+            </div>
+           <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebooklogo.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagramlogo.png" alt="instagram"></a>
+                <a href="https://mobile.twitter.com" target="_blank"><img src="imgs/twitterlogo.png" alt="twitter"></a>
+           </div>
+        </header>
+        <main class="main-join">
+          <div class="order-form">
+            <h1>Order a Specialty Drink!</h1>
+            <form action="fresh.html" method="get">
+                <fieldset class="form">
+                    <legend>Order form</legend>
+                    <div>
+                        <label for="name">First Name</label>
+                        <input type="text" name="first-name" id="name"  required minlength="3" maxlength="10" size="12">
+                    </div>
+                    <div>
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="user-email" placeholder="user@email.com" required> 
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="user-phone" id="phone" placeholder="###-###-####" required>
+                    </div>
+                    <div>
+                        Choose your Fruit to include
+                        <div>
+                            <label for="food-list1">Option 1</label>
+                            <select name="food-list1" id="food-list1">
+                            </select>
+                        </div>
+                       <div>
+                            <label for="food-list2">Option 2</label>
+                            <select name="food-list2" id="food-list2"></select>
+                       </div>
+                       <div>
+                            <label for="food-list3">Option 3</label>
+                            <select name="food-list3" id="food-list3"></select>
+                       </div>
+                    </div>
+                    <div>
+                        <label for="instruction">Special Instructions</label>
+                        <textarea name="instruction" id="instruction" cols="30" rows="10"></textarea>
+                    </div>
+                    <input class="button" type="submit" value="Submit Order">
+                </fieldset>
+            </form>
+          </div>
+        </main>
+        <footer>
+            <div class="logo-footer">
+                <h2>Bountiful Foods</h2>
+            </div>
+            <div class="contact">
+                <p>Contact us: har20040@byui.edu
+                    <br> +(1) 435-790-1300
+                </p>
+                <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1273947,-117.3072377,13.17z/data=!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939">Location</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebooklogo.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagramlogo.png" alt="instagram"></a>
+                <a href="https://mobile.twitter.com" target="_blank"><img src="imgs/twitterlogo.png" alt="twitter"></a>
+           </div>
+        </footer>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/fruitlist.js"></script>
+    </body>
+</html>

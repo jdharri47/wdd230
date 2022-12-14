@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bountiful Foods</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <button id="hamburgerbtn"><span>&#9776;</span></button>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul id="primarynav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fresh.html">Fresh</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headname">
+              <!--<img src="" alt="">-->  
+                <h1>Bountiful Foods</h1>
+            </div>
+           <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebooklogo.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagramlogo.png" alt="instagram"></a>
+                <a href="https://mobile.twitter.com" target="_blank"><img src="imgs/twitterlogo.png" alt="twitter"></a>
+           </div>
+        </header>
+        <main>
+            <div class="hero">
+                <picture class="hero-img">
+                    <source media="(max-width: 600px)" srcset="imgs/fruitdrinksmall.jpg">
+                    <source media="(max-width: 800px)" srcset="imgs/fruitdrink.jpg">
+                    <img src="imgs/fruitdrink.jpg" alt="fuits and fruit drinks" loading="lazy">
+                </picture>
+                <button class="call-to-action">Make your own drink</button>
+            </div>
+            <div class="information-card">
+                <p></p>
+            </div>
+            <div class="weather">
+                <div class="forecast">
+                    <div class="icons">
+                        <h3 id="day1">Day 1</h3>
+                        <figure>
+                            <img src="https://via.placeholder.com/50" alt="" id="weather-icon1" loading="lazy">
+                        </figure>
+                        <p id="temp1"></p>
+                    </div>
+                    <div class="icons">
+                        <h3 id="day2">Day 2</h3>
+                        <figure>
+                            <img src="https://via.placeholder.com/50" alt="" id="weather-icon2" loading="lazy">
+                        </figure>
+                        <p id="temp2"></p>
+                    </div>
+                    <div class="icons">
+                        <h3 id="day3">Day 3</h3>
+                        <figure>
+                            <img src="https://via.placeholder.com/50" alt="" id="weather-icon3" loading="lazy">
+                        </figure>
+                        <p id="temp3"></p>
+                    </div>
+                </div>
+                <hr>
+                <h3 class="todaysdate">Todays Date</h3>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Temp: <span id="temp"></span></p>
+                <figure>
+                    <img src="https://via.placeholder.com/50" alt="" id="condition" loading="lazy">
+                    <figcaption id="description"></figcaption>
+                </figure>
+                
+            </div>
+            <div class="area-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </main>
+        <footer>
+            <div class="logo-footer">
+                <!--<img src="" alt="">-->
+                <h2>Bountiful Foods</h2>
+            </div>
+            <div class="contact">
+                <p>Contact us: har20040@byui.edu
+                    <br> +(1) 435-790-1300
+                </p>
+                <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1273947,-117.3072377,13.17z/data=!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939">Location</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebooklogo.png" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagramlogo.png" alt="instagram"></a>
+                <a href="https://mobile.twitter.com" target="_blank"><img src="imgs/twitterlogo.png" alt="twitter"></a>
+           </div>
+        </footer>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+    </body>
+</html>
